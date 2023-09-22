@@ -15,5 +15,7 @@
   padding: 15px;
   font-size: 16px;
   border: 0;
+  background-color: goldenrod;
+  border-radius: 10px;
   font-family: "Roboto", sans-serif;
 }
