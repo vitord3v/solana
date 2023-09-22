@@ -25,11 +25,11 @@ const Home: NextPage = () => {
     <div className={styles.App}>
       <header className={styles.AppHeader}>
         <p>
-          Start Your Solana Journey
+          Checar Balanço da conta 💰
         </p>
         <AddressForm handler={addressSubmittedHandler} />
-        <p>{`Address: ${address}`}</p>
-        <p>{`Balance: ${balance} SOL`}</p>
+        <p>{address ? `Address: ${address}` : '' }</p>
+        <p>{address ? `Balance: ${balance} SOL` : ''}</p>
       </header>
     </div>
   )
